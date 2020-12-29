@@ -7,7 +7,6 @@ $password = "";
 
 $ssh = new SSH("sorubank2.ege.edu.tr",$username,$password);
 
-
 $files = scanAllDir(realpath('.').'/ege_server');
 
 foreach ($files as $file)
